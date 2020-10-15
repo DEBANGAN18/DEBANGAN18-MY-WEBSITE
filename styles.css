@@ -503,20 +503,34 @@
     .name h6{
         color: snow;
     }
-    .pdf{
+     .pdf{
         box-sizing: border-box;
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     } 
-    
+    .pdf a{
+        font-family: 'Cormorant Garamond', serif;
+        text-decoration: none;
+        font-size: 12px;
+        color: blanchedalmond;
+        margin-top:8rem;
+        flex:1;
+        
+    }
     .pdf img{
-        margin-top:5rem;
+        margin-top:1rem;
         height:50vh;
+        flex:1;
     }
 
-    .pdf img:hover{
+    .pdf a:hover{
         opacity: 2;
-        border-bottom :0.5px solid lightgray;
-        border-left :1px solid lightgray;
+        background-color: white;
+        color: black;
+        border :0.5px solid lightgray;
+        padding: 5px;
     }
     .e-mag-text{
         width:100%;
