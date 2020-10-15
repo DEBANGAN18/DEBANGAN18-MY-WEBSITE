@@ -479,6 +479,9 @@
         height: 100%;
         overflow: hidden;
     }
+    .e-mag-text{
+        display: none;
+    }
     .e-mag{
         flex-direction: column;
         background-color: black;
