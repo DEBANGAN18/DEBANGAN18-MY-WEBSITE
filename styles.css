@@ -508,12 +508,12 @@
     }
      .pdf{
         box-sizing: border-box;
-        display: flex;
+       display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     } 
-    .pdf a{
+    /*.pdf a{
         font-family: 'Cormorant Garamond', serif;
         text-decoration: none;
         font-size: 12px;
@@ -521,17 +521,18 @@
         margin-top:8rem;
         flex:1;
         
-    }
+    }*/
     .pdf img{
-        margin-top:1rem;
+        margin-top:5rem;
+        height: 60%;
+        width: auto;
         height:50vh;
-        flex:1;
     }
 
-    .pdf a:hover{
-        opacity: 2;
-        background-color: white;
-        color: black;
+    .pdf img:hover{
+        opacity: 0.8;
+        /*background-color: white;
+        color: black;*/
         border :0.5px solid lightgray;
         padding: 5px;
     }
